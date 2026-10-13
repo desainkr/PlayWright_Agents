@@ -1,0 +1,13 @@
+Work in my existing playwright playwright_agent project
+Inside the tests folder ,create a new playwright spec file named saucedemo-login.spec.ts.
+Create playwright test that:
+1.open the saucedemo application: https://www.saucedemo.com/
+2.Use follwoing creentials to log in:
+ username:standard_user
+ password:secret_sauce
+3.Click the login button
+4.Verify that the products page id displayed after successful login
+
+use playwright to automate the browser interaction
+Do not ask me to manually create the test file or write the code myslef.Create the required spec file and implement the test in my account.
+Do not modify any unrelated files or configuration
