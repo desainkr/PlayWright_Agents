@@ -1,0 +1,37 @@
+Task:
+Genarate playwright automated tests for the selected test cases
+
+Source:
+Refer to the test cases created in the previous step
+
+Application:
+
+TodoMVC
+https://demo.playwright.dev/todomvc/
+
+Objective:
+Convert the selected test cases into executable playwright test scenarios
+
+Instructions:
+
+Review the selected tets cases carefully before generating the tests
+Use the application URL provided above
+Explore application as necessary to understand the current UI
+Identify and verify appropriate playwright locators for each test step
+Use reliable playwright user-facing locators wherever required 
+Add menaingful assertaions based on the expected results in the test cases 
+Keep each test case independent
+Use page object model and playwright tets best practicies
+Verify the genrated locators and assertions against the actual application before finalizing the tests
+place the generated tests in the appropriate playwright test directory
+
+DO not:
+Do not invent U elements ,locators or functionality
+Do not modify the applicationDo not modify the original tets cases
+Do not genrated unnecessary test beyond the selecteed tets cases
+Do not execute the genrated tests
+Do not fix tets failures at this stage
+
+Output:
+create executiable playwright rteest files corresponding to the selected test cases
+

@@ -1,0 +1,44 @@
+Task:
+Create detailed test cases for the most important tets scenarios identified in the existing scenario doc
+
+
+Source:
+Refer only to the test scenarios created in the previous step
+
+Objective:
+Creeate deatiled ,execution ready test cases for the 2 highest priority test scenarios
+
+
+Instructions:
+Review the existing test scenarios before creating the test cases
+Select the 2 hightest priority scenarios
+Create one or more meaningful test cases for each selected scenario where required
+Include clear test steps and expected results for every test case
+Include appropriate test data where applicable
+Ensure each test case is independently executable
+Maintain tracebility by referencing the corresponding test scenario ID
+Cover the important functional behavior desccribed in the selected scenarios
+Avoid unnecessary duplication
+
+Do Not:
+
+Do not explore th eapplication again unless to clarify info alreaddy present in the source sccenarios
+Do not invent requirements or functionality that are not supported by the test scenarios
+Do not modify th eexisting tets scenarios
+Do not modify the application
+Do not generate playwright code
+Do not create automated test files
+
+output:
+Create detailed test cases for the 2 selected hig-priority scenarios
+
+For each test  case ,includes:
+Test case ID
+Test scenario ID
+Test case title
+preconditions
+test data
+test steps
+expected results
+priority
+

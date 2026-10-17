@@ -1,0 +1,27 @@
+Goal:
+Create and execute a playwright end to end test for searching laptops on Amazon USA
+
+Steps:
+Open https://amazon.com
+Search for "laotop"
+Identify th elaptop products whose displayed price is less than $2000.00
+Print the matching product names and prices in the test output
+Add appropriate asserstions to verify the results
+save test as "tests/Amazon-product.spec.ts"
+
+Constrains:
+Use typeScript and playwright test
+Use Playwrigt recommended laoctors where ever possible
+Do not modify ,delete or overwrite any existing file
+Do not use hard coded waits such as "waitForTimeout"
+If login is required, stop and report that login is requied , don't attempt change to create or change credentioals
+
+Execution:
+Run only "tests/Amazon-product.spec.ts"
+Run in only chrome browser and Headed mode so that I see browser execution
+If test failed ,Anylize the error and identify cause
+If failure is causes by an incorrect or ambigous locators. fix the locator approparlately and the tes again
+continue until tets passes or you detrmine that the failure cannot be fixed automatically
+at th e end,report th efinal execution results and any corrections made 
+
+

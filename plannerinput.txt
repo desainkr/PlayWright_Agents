@@ -1,0 +1,26 @@
+Create a comprehensive  test plan for the TodoMVC
+Application URL:
+https://demo.playwright.dev/todomvc/
+
+explore the application thoroughly and identify the major user workflows and functionality that should be covered by end-end tests
+
+The test plan should:
+
+Identify meaningful test scenarios based on the functionality you discover
+Include the steps required to execute each scenario
+Include the expected results for each scenario
+Use the actual UI and behavior of the application
+Include relevant positive, negative and boundary scenarios where applicable
+Avoid inventing functionality that does not exist
+
+Do not:
+Generate playwright code
+Create or modify playwright test files
+Modify the application
+
+Output:
+Create the test plan as a structured markdown document
+and save it under specs/directory
+
+
+

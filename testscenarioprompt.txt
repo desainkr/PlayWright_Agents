@@ -1,0 +1,40 @@
+Task:
+Create the top 10 most important test sceanrios from the existing playwright test plan
+
+source:
+Use the test plan available in the "specs/" directory as the only source of functional requirements
+
+Objective:
+Identify the 10 highest priority test sceanrios that provide the most important coverage of the application's core funtionalty
+
+Instrunctions:
+Review the existing test plan thoroughly before creating the sceanrios
+SELECT SCENARIIOS BASED ON BUSINESS IMPORTANCE  user impact functionality  and test coverage
+Prioritize critical and high-value iuser workflows
+Keep each scenario independent and clearly defined
+Assign a suitable priority to each scenario
+Provide brief descrpition explaining what each scenario validates
+Preserve the functionality and expected behavior described in the tets plan
+Avoid unnecessary duplication between sceanrios
+
+Do not:
+
+Do not explore the application again unless required to clarify information already present in the test plan
+Do not  invent functionality , requirements, or expected behavior that is not supported by th etets plan
+Do not modify the application
+Do not modify existing plan
+Do not generrate playwright code
+Do not create automated test files
+
+output:
+
+Create a list of exactly 10 Prioritized test scenarios
+
+For each scenario include:
+
+Scenario Id
+Scenario Name
+descrpition
+priority
+Referance to the relevent area of the tets plan
+

@@ -1,0 +1,16 @@
+Create a playwright end-to-end test for Saucedemo
+create a new playwright spec file named saucedemo-macpuser.spec.ts.
+Create playwright test that:
+1.open the saucedemo application: https://www.saucedemo.com/
+2.Use follwoing creentials to log in:
+ username:standard_user
+ password:secret_sauce
+3.Click the login button
+4.Verify that the product page is displayed
+5.use playwrights recommended locators where possible
+6.Do not modify any existing file
+7.Save the test only in tests/ saucedemo-macpuser.spec.ts
+8.Run the test only in Chrome browser
+9.Run th etest in headed mode so i can see th ebrowser and the execution
+10.After execution report where tets test passed or failed 
+

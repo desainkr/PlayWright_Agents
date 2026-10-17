@@ -1,0 +1,48 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - text: This is just a demo of TodoMVC for testing, not the
+    - link "real TodoMVC app." [ref=e3] [cursor=pointer]:
+      - /url: https://todomvc.com/
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - heading "todos" [level=1] [ref=e7]
+      - textbox "What needs to be done?" [ref=e8]
+    - generic [ref=e35]:
+      - checkbox "❯Mark all as complete" [ref=e36]
+      - generic [ref=e37]: ❯Mark all as complete
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - generic [ref=e40]:
+            - checkbox "Toggle Todo" [checked] [active] [ref=e41]
+            - generic [ref=e42]: Prepare report
+            - button "Delete" [ref=e58]: ×
+        - listitem [ref=e53]:
+          - generic [ref=e54]:
+            - checkbox "Toggle Todo" [ref=e55]
+            - generic [ref=e56]: Send invoice
+            - text: ×
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - strong [ref=e45]: "1"
+        - text: item left
+      - list [ref=e46]:
+        - listitem [ref=e47]:
+          - link "All" [ref=e48] [cursor=pointer]:
+            - /url: "#/"
+        - listitem [ref=e49]:
+          - link "Active" [ref=e50] [cursor=pointer]:
+            - /url: "#/active"
+        - listitem [ref=e51]:
+          - link "Completed" [ref=e52] [cursor=pointer]:
+            - /url: "#/completed"
+      - button "Clear completed" [ref=e59] [cursor=pointer]
+  - contentinfo [ref=e9]:
+    - paragraph [ref=e10]: Double-click to edit a todo
+    - paragraph [ref=e11]:
+      - text: Created by
+      - link "Remo H. Jansen" [ref=e12] [cursor=pointer]:
+        - /url: http://github.com/remojansen/
+    - paragraph [ref=e13]:
+      - text: Part of
+      - link "TodoMVC" [ref=e14] [cursor=pointer]:
+        - /url: http://todomvc.com
